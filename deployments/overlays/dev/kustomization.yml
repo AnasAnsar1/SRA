@@ -8,5 +8,8 @@ images:
     newTag: dev-latest
 labels:
   - pairs:
-      env: dev
+      version: dev
     includeTemplates: true
+replicas:
+- name: SRA
+  count: 5

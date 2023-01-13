@@ -8,5 +8,8 @@ images:
     newTag: uat-latest
 labels:
   - pairs:
-      env: uat
+      version: uat
     includeTemplates: true
+replicas:
+- name: SRA
+  count: 4

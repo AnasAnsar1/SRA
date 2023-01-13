@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: SRA-svc
   labels:
-    env: dev
+    version: dev
   namespace: dev
 spec:
   type: LoadBalancer

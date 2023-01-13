@@ -4,7 +4,7 @@ kind: PersistentVolumeClaim
 metadata:
   name: dbclaim
   labels:
-    env: dev
+    version: dev
   namespace: dev
 spec:
   accessModes:
@@ -19,7 +19,7 @@ kind: Pod
 metadata:
   name: std-db
   labels:
-    env: dev
+    version: dev
     db: std-db
   namespace: dev
 spec:

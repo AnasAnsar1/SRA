@@ -3,7 +3,7 @@ kind: service
 metadata:
   name: db-svc
   labels:
-    env: dev
+    version: dev
   namespace: dev
 spec:
   type: ClusterIP

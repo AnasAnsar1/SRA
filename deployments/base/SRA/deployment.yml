@@ -4,7 +4,7 @@ kind: Deployment
 metadata:
   name: SRA
   labels:
-    env: dev
+    version: dev
     app: SRA
   namespace: dev
 spec:
@@ -23,7 +23,7 @@ spec:
       name: SRA
       labels:
         app: SRA
-        env: dev
+        version: dev
       namespace: dev
     spec:
       containers:

@@ -1,5 +1,5 @@
 resources:
 - dev
-- main
+- prod
 - qa
 - uat
