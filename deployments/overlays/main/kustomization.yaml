@@ -1,0 +1,12 @@
+resources:
+- ../../base
+namespace: main
+namePrefix: main-
+images:
+  - name: anasansarii/SRA
+    newName: anasansarii/SRA
+    newTag: main-latest
+labels:
+  - pairs:
+      env: main
+    includeTemplates: true
